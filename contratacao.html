@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>EasyTrampo - Contratação</title>
-	<link rel="icon" href="img/icon.png" type="image/png">
+  <link rel="icon" href="img/icon.png" type="image/png">
 
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
@@ -20,7 +20,7 @@
 </head>
 <body>
   <!--================ Start Header Menu Area =================-->
-	<header class="header_area">
+  <header class="header_area">
     <div class="main_menu">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
@@ -37,110 +37,92 @@
               <li class="nav-item active submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">Serviços</a>
-							</li>
+              </li>
               <li class="nav-item"><a class="nav-link" href="">Contato</a></li>
             </ul>
 
             <ul class="nav-shop">
-              <li class="nav-item"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">3</span></button> </li>
+              <li class="nav-item"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">1</span></button> </li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
   </header>
-	<!--================ End Header Menu Area =================-->
+  <!--================ End Header Menu Area =================-->
 
 
-	<!-- ================ start banner area ================= -->	
-	<section class="blog-banner-area" id="category">
-		<div class="container h-100">
-			<div class="blog-banner">
-				<div class="text-center">
-					<h1>Contratação</h1>
-					<nav aria-label="breadcrumb" class="banner-breadcrumb">
+  <!-- ================ start banner area ================= --> 
+  <!-- <section class="blog-banner-area" id="category">
+    <div class="container h-100">
+      <div class="blog-banner">
+        <div class="text-center">
+          <h1>Contratação</h1>
+          <nav aria-label="breadcrumb" class="banner-breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="#">Nome do prestador do serviço</a></li>
               <li class="breadcrumb-item active" aria-current="page">Nome do serviço</li>
             </ol>
           </nav>
-				</div>
-			</div>
+        </div>
+      </div>
     </div>
-	</section>
-	<!-- ================ end banner area ================= -->
+  </section>
+  <!-- ================ end banner area ================= -->
   
   
   <!--================Checkout Area =================-->
   <section class="checkout_area section-margin--small">
     <div class="container">
-        <div class="cupon_area">
-            <div class="check_title">
-                <h2>Possui um cupom?</h2>
-            </div>
-            <input type="text" placeholder="Coloque o código do cupom aqui">
-            <a class="button button-coupon" href="#">Aplicar cupom</a>
-        </div>
         <div class="billing_details">
             <div class="row">
                 <div class="col-lg-8">
                     <h3>Seus Dados</h3>
                     <form class="row contact_form" action="#" method="post" novalidate="novalidate">
                         <div class="col-md-6 form-group p_star">
-                            <input type="text" class="form-control" id="first" name="name">
-                            <span class="placeholder" data-placeholder="First name"></span>
+                            <input type="text" class="form-control" id="first" name="name" placeholder="Nome">
                         </div>
                         <div class="col-md-6 form-group p_star">
-                            <input type="text" class="form-control" id="last" name="name">
-                            <span class="placeholder" data-placeholder="Last name"></span>
+                            <input type="text" class="form-control" id="last" name="lastname" placeholder="Sobrenome">
                         </div>
                         <div class="col-md-12 form-group">
-                            <input type="text" class="form-control" id="company" name="company" placeholder="Company name">
+                            <input type="text" class="form-control" id="company" name="company" placeholder="Email">
                         </div>
                         <div class="col-md-6 form-group p_star">
-                            <input type="text" class="form-control" id="number" name="number">
-                            <span class="placeholder" data-placeholder="Phone number"></span>
+                            <input type="text" class="form-control" id="number" name="number" placeholder="RG">
                         </div>
                         <div class="col-md-6 form-group p_star">
-                            <input type="text" class="form-control" id="email" name="compemailany">
-                            <span class="placeholder" data-placeholder="Email Address"></span>
+                            <input type="text" class="form-control" id="email" name="compemailany" placeholder="CPF">
                         </div>
-                        <div class="col-md-12 form-group p_star">
+                        <div class="col-md-4 form-group">
+                            <input type="text" class="form-control" id="zip" name="zip" placeholder="CEP">
+                        </div>
+                        <div class="col-md-4 form-group p_star">
                             <select class="country_select">
-                                <option value="1">Country</option>
-                                <option value="2">Country</option>
-                                <option value="4">Country</option>
+                                <option value="1">Brasil</option>
+                                <option value="2">Argentina</option>
+                                <option value="4">Liechtenstein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 form-group p_star">
+                            <select class="country_select">
+                                <option value="1">BA</option>
+                                <option value="2">SP</option>
+                                <option value="4">SC</option>
                             </select>
                         </div>
                         <div class="col-md-12 form-group p_star">
-                            <input type="text" class="form-control" id="add1" name="add1">
-                            <span class="placeholder" data-placeholder="Address line 01"></span>
+                            <input type="text" class="form-control" id="add1" name="add1"  placeholder="Endereço">
                         </div>
-                        <div class="col-md-12 form-group p_star">
-                            <input type="text" class="form-control" id="add2" name="add2">
-                            <span class="placeholder" data-placeholder="Address line 02"></span>
-                        </div>
-                        <div class="col-md-12 form-group p_star">
-                            <input type="text" class="form-control" id="city" name="city">
-                            <span class="placeholder" data-placeholder="Town/City"></span>
-                        </div>
-                        <div class="col-md-12 form-group p_star">
-                            <select class="country_select">
-                                <option value="1">District</option>
-                                <option value="2">District</option>
-                                <option value="4">District</option>
-                            </select>
-                        </div>
-                        <div class="col-md-12 form-group">
-                            <input type="text" class="form-control" id="zip" name="zip" placeholder="Postcode/ZIP">
-                        </div>
+
+
                     </form>
                 </div>
                 <div class="col-lg-4">
                     <div class="order_box">
                         <h2>Custo</h2>
                         <ul class="list list_2">
-                            <li><a href="#">Nome do serviço <span>$2210.00</span></a></li>
+                            <li><a href="#">Costureira <span>R$ 10,00</span></a></li>
                         </ul>
                         <div class="payment_item">
                             <div class="radion_btn">
@@ -161,8 +143,8 @@
                         </div>
                         <div class="creat_account">
                             <input type="checkbox" id="f-option4" name="selector">
-                            <label for="f-option4">I’ve read and accept the </label>
-                            <a href="#">terms & conditions*</a>
+                            <label for="f-option4">Eu li e aceito os </label>
+                            <a href="#">termos e condições*</a>
                         </div>
                         <div class="text-center">
                           <a class="button button-paypal" href="#">Continuar para o pagamento</a>
@@ -177,7 +159,7 @@
 
 
 
- <!--================ Start footer Area  =================-->	
+ <!--================ Start footer Area  =================--> 
  <footer>
   <div class="footer-area">
     <div class="container">
