@@ -1,6 +1,7 @@
 # ATENÇÃO
 
 De acordo com nosso plano de trabalho, são três páginas que precisamos apresentar pra ele, e elas são os arquivos:
+- `index.html`, que é a home e já está feita
 - `servicos.html`, que é a listagem de todos os serviços que tem em nossa plataforma. Tirei negócio de filtro e tudo mais, pra facilitar nosso trabalho
 - `servico.html`, que é os detalhes de um serviço que o usuário escolher
 - `contratacao.html`, que é a página onde o cara vai colocar os dados dele e contratar o serviço que ele escolheu
